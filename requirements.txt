@@ -1,0 +1,5 @@
+opencv_python==4.13.0.92
+opencv_python_headless==4.10.0.84
+pandas==3.0.2
+roboflow==1.3.7
+ultralytics==8.4.43

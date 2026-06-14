@@ -1,0 +1,7 @@
+tracker_type: bytetrack # Use ByteTrack for object tracking
+track_high_thresh: 0.35 # Confidence threshold for first matching stage
+track_low_thresh: 0.10 # Confidence threshold for second matching stage
+new_track_thresh: 0.35 # Minimum confidence to create a brand new track ID
+match_thresh: 0.82
+track_buffer: 90 # Number of frames to keep track
+fuse_score: true

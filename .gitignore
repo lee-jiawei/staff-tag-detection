@@ -1,0 +1,15 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+
+# Environment variables and local secrets
+.env
+
+# Generated artifacts and experiment outputs
+raw_frames/
+output/
+runs/
+
+# Large model weights (keep local)
+*.pt

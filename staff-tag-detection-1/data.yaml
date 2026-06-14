@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['staff-tag']
+
+roboflow:
+  workspace: genevieves-workspace-bdofm
+  project: staff-tag-detection-fmgbi
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/genevieves-workspace-bdofm/staff-tag-detection-fmgbi/dataset/1

@@ -1,0 +1,19 @@
+paths:
+  input_video: "video/sample.mp4"
+  raw_frames_dir: "raw_frames"
+  dataset_yaml: "staff-tag-detection-1/data.yaml"
+  tag_model_weights: "runs/detect/train/weights/best.pt"
+  person_model_weights: "best.pt"
+  tracker_config: "bytetrack_staff.yaml"
+  output_video: "output/output.mp4"
+  output_csv: "output/staff.csv"
+
+thresholds:
+  person_conf: 0.2
+  tag_conf: 0.2
+  staff_min_frames: 5
+
+training:
+  epochs: 50
+  imgsz: 640
+  device: "cpu"
