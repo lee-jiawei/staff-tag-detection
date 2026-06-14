@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 ## Results
 Demo video 
-- [text](https://youtu.be/VM4Jzv85wOc)
+- [Youtube Link](https://youtu.be/VM4Jzv85wOc)
 
 Annotated video
 - `output/output.mp4`
